@@ -1,0 +1,1800 @@
+{
+ "organization": {
+  "displayName": "Contoso (demo tenant)",
+  "id": "00000000-demo-0000-0000-000000000000"
+ },
+ "ppDataAvailable": true,
+ "capacity": {
+  "dbUsedGB": 24.0,
+  "fileUsedGB": 60.0,
+  "logUsedGB": 1.5,
+  "addOnDbGB": 10.0,
+  "addOnFileGB": 50.0,
+  "addOnLogGB": 0.0,
+  "perEnvironment": [
+   {
+    "environment": "Default",
+    "dbUsedGB": 6.5,
+    "fileUsedGB": 18.0,
+    "logUsedGB": 0.4
+   },
+   {
+    "environment": "Prod",
+    "dbUsedGB": 12.0,
+    "fileUsedGB": 31.0,
+    "logUsedGB": 0.8
+   },
+   {
+    "environment": "Dev1",
+    "dbUsedGB": 3.5,
+    "fileUsedGB": 7.0,
+    "logUsedGB": 0.2
+   },
+   {
+    "environment": "Test",
+    "dbUsedGB": 2.0,
+    "fileUsedGB": 4.0,
+    "logUsedGB": 0.1
+   }
+  ]
+ },
+ "subscribedSkus": [
+  {
+   "skuId": "sku-pa-premium",
+   "skuPartNumber": "POWERAPPS_PER_USER",
+   "prepaidUnits": {
+    "enabled": 45
+   },
+   "consumedUnits": 40
+  },
+  {
+   "skuId": "sku-flow-premium",
+   "skuPartNumber": "POWERAUTOMATE_ATTENDED_RPA",
+   "prepaidUnits": {
+    "enabled": 28
+   },
+   "consumedUnits": 25
+  },
+  {
+   "skuId": "sku-e3",
+   "skuPartNumber": "SPE_E3",
+   "prepaidUnits": {
+    "enabled": 80
+   },
+   "consumedUnits": 66
+  }
+ ],
+ "users": [
+  {
+   "id": "u-001",
+   "displayName": "Aegis Yıldız",
+   "userPrincipalName": "aegis.yildiz@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-002",
+   "displayName": "Aegis Koç",
+   "userPrincipalName": "aegis.koc@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-003",
+   "displayName": "Aegis Erdem",
+   "userPrincipalName": "aegis.erdem@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-004",
+   "displayName": "Aegis Polat",
+   "userPrincipalName": "aegis.polat@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-005",
+   "displayName": "Aegis Güneş",
+   "userPrincipalName": "aegis.gunes@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-006",
+   "displayName": "Aegis Acar",
+   "userPrincipalName": "aegis.acar@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-007",
+   "displayName": "Aegis Tan",
+   "userPrincipalName": "aegis.tan@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-008",
+   "displayName": "Aegis Ünal",
+   "userPrincipalName": "aegis.unal@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-009",
+   "displayName": "Aegis Bilgin",
+   "userPrincipalName": "aegis.bilgin@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-010",
+   "displayName": "Aegis Sezer",
+   "userPrincipalName": "aegis.sezer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-011",
+   "displayName": "Aegis Hansen",
+   "userPrincipalName": "aegis.hansen@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-012",
+   "displayName": "Aegis Meyer",
+   "userPrincipalName": "aegis.meyer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-013",
+   "displayName": "Aegis Lopez",
+   "userPrincipalName": "aegis.lopez@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-014",
+   "displayName": "Aegis Nakamura",
+   "userPrincipalName": "aegis.nakamura@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-015",
+   "displayName": "Aegis Osei",
+   "userPrincipalName": "aegis.osei@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-016",
+   "displayName": "Aegis Petrov",
+   "userPrincipalName": "aegis.petrov@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-017",
+   "displayName": "Aegis Quinn",
+   "userPrincipalName": "aegis.quinn@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-018",
+   "displayName": "Aegis Rey",
+   "userPrincipalName": "aegis.rey@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-019",
+   "displayName": "Aegis Souza",
+   "userPrincipalName": "aegis.souza@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-020",
+   "displayName": "Aegis Tanaka",
+   "userPrincipalName": "aegis.tanaka@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-021",
+   "displayName": "Banu Yıldız",
+   "userPrincipalName": "banu.yildiz@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-022",
+   "displayName": "Banu Koç",
+   "userPrincipalName": "banu.koc@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-023",
+   "displayName": "Banu Erdem",
+   "userPrincipalName": "banu.erdem@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-024",
+   "displayName": "Banu Polat",
+   "userPrincipalName": "banu.polat@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-025",
+   "displayName": "Banu Güneş",
+   "userPrincipalName": "banu.gunes@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-026",
+   "displayName": "Banu Acar",
+   "userPrincipalName": "banu.acar@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-027",
+   "displayName": "Banu Tan",
+   "userPrincipalName": "banu.tan@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-028",
+   "displayName": "Banu Ünal",
+   "userPrincipalName": "banu.unal@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-029",
+   "displayName": "Banu Bilgin",
+   "userPrincipalName": "banu.bilgin@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-030",
+   "displayName": "Banu Sezer",
+   "userPrincipalName": "banu.sezer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-031",
+   "displayName": "Banu Hansen",
+   "userPrincipalName": "banu.hansen@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-032",
+   "displayName": "Banu Meyer",
+   "userPrincipalName": "banu.meyer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-033",
+   "displayName": "Banu Lopez",
+   "userPrincipalName": "banu.lopez@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-034",
+   "displayName": "Banu Nakamura",
+   "userPrincipalName": "banu.nakamura@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-035",
+   "displayName": "Banu Osei",
+   "userPrincipalName": "banu.osei@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-036",
+   "displayName": "Banu Petrov",
+   "userPrincipalName": "banu.petrov@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-037",
+   "displayName": "Banu Quinn",
+   "userPrincipalName": "banu.quinn@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-038",
+   "displayName": "Banu Rey",
+   "userPrincipalName": "banu.rey@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-039",
+   "displayName": "Banu Souza",
+   "userPrincipalName": "banu.souza@contoso.com",
+   "accountEnabled": false,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-040",
+   "displayName": "Banu Tanaka",
+   "userPrincipalName": "banu.tanaka@contoso.com",
+   "accountEnabled": false,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-pa-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-041",
+   "displayName": "Cavit Yıldız",
+   "userPrincipalName": "cavit.yildiz@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-042",
+   "displayName": "Cavit Koç",
+   "userPrincipalName": "cavit.koc@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-043",
+   "displayName": "Cavit Erdem",
+   "userPrincipalName": "cavit.erdem@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-044",
+   "displayName": "Cavit Polat",
+   "userPrincipalName": "cavit.polat@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-045",
+   "displayName": "Cavit Güneş",
+   "userPrincipalName": "cavit.gunes@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-046",
+   "displayName": "Cavit Acar",
+   "userPrincipalName": "cavit.acar@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-047",
+   "displayName": "Cavit Tan",
+   "userPrincipalName": "cavit.tan@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-048",
+   "displayName": "Cavit Ünal",
+   "userPrincipalName": "cavit.unal@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-049",
+   "displayName": "Cavit Bilgin",
+   "userPrincipalName": "cavit.bilgin@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-050",
+   "displayName": "Cavit Sezer",
+   "userPrincipalName": "cavit.sezer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-051",
+   "displayName": "Cavit Hansen",
+   "userPrincipalName": "cavit.hansen@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-052",
+   "displayName": "Cavit Meyer",
+   "userPrincipalName": "cavit.meyer@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-053",
+   "displayName": "Cavit Lopez",
+   "userPrincipalName": "cavit.lopez@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-054",
+   "displayName": "Cavit Nakamura",
+   "userPrincipalName": "cavit.nakamura@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-055",
+   "displayName": "Cavit Osei",
+   "userPrincipalName": "cavit.osei@contoso.com",
+   "accountEnabled": false,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    },
+    {
+     "skuId": "sku-flow-premium"
+    }
+   ]
+  },
+  {
+   "id": "u-056",
+   "displayName": "Cavit Petrov",
+   "userPrincipalName": "cavit.petrov@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    }
+   ]
+  },
+  {
+   "id": "u-057",
+   "displayName": "Cavit Quinn",
+   "userPrincipalName": "cavit.quinn@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    }
+   ]
+  },
+  {
+   "id": "u-058",
+   "displayName": "Cavit Rey",
+   "userPrincipalName": "cavit.rey@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    }
+   ]
+  },
+  {
+   "id": "u-059",
+   "displayName": "Cavit Souza",
+   "userPrincipalName": "cavit.souza@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    }
+   ]
+  },
+  {
+   "id": "u-060",
+   "displayName": "Cavit Tanaka",
+   "userPrincipalName": "cavit.tanaka@contoso.com",
+   "accountEnabled": true,
+   "assignedLicenses": [
+    {
+     "skuId": "sku-e3"
+    }
+   ]
+  }
+ ],
+ "apps": [
+  {
+   "name": "App 01",
+   "environment": "Default",
+   "ownerId": "u-001",
+   "ownerUpn": "aegis.yildiz@contoso.com"
+  },
+  {
+   "name": "App 02",
+   "environment": "Prod",
+   "ownerId": "u-002",
+   "ownerUpn": "aegis.koc@contoso.com"
+  },
+  {
+   "name": "App 03",
+   "environment": "Dev1",
+   "ownerId": "u-003",
+   "ownerUpn": "aegis.erdem@contoso.com"
+  },
+  {
+   "name": "App 04",
+   "environment": "Test",
+   "ownerId": "u-004",
+   "ownerUpn": "aegis.polat@contoso.com"
+  },
+  {
+   "name": "App 05",
+   "environment": "Default",
+   "ownerId": "u-005",
+   "ownerUpn": "aegis.gunes@contoso.com"
+  },
+  {
+   "name": "App 06",
+   "environment": "Prod",
+   "ownerId": "u-006",
+   "ownerUpn": "aegis.acar@contoso.com"
+  },
+  {
+   "name": "App 07",
+   "environment": "Dev1",
+   "ownerId": "u-007",
+   "ownerUpn": "aegis.tan@contoso.com"
+  },
+  {
+   "name": "App 08",
+   "environment": "Test",
+   "ownerId": "u-008",
+   "ownerUpn": "aegis.unal@contoso.com"
+  },
+  {
+   "name": "App 09",
+   "environment": "Default",
+   "ownerId": "u-009",
+   "ownerUpn": "aegis.bilgin@contoso.com"
+  },
+  {
+   "name": "App 10",
+   "environment": "Prod",
+   "ownerId": "u-010",
+   "ownerUpn": "aegis.sezer@contoso.com"
+  },
+  {
+   "name": "App 11",
+   "environment": "Default",
+   "ownerId": "u-011",
+   "ownerUpn": "aegis.hansen@contoso.com"
+  },
+  {
+   "name": "App 12",
+   "environment": "Prod",
+   "ownerId": "u-012",
+   "ownerUpn": "aegis.meyer@contoso.com"
+  },
+  {
+   "name": "App 13",
+   "environment": "Dev1",
+   "ownerId": "u-013",
+   "ownerUpn": "aegis.lopez@contoso.com"
+  },
+  {
+   "name": "App 14",
+   "environment": "Test",
+   "ownerId": "u-014",
+   "ownerUpn": "aegis.nakamura@contoso.com"
+  },
+  {
+   "name": "App 15",
+   "environment": "Default",
+   "ownerId": "u-015",
+   "ownerUpn": "aegis.osei@contoso.com"
+  },
+  {
+   "name": "App 16",
+   "environment": "Prod",
+   "ownerId": "u-016",
+   "ownerUpn": "aegis.petrov@contoso.com"
+  },
+  {
+   "name": "App 17",
+   "environment": "Dev1",
+   "ownerId": "u-017",
+   "ownerUpn": "aegis.quinn@contoso.com"
+  },
+  {
+   "name": "App 18",
+   "environment": "Test",
+   "ownerId": "u-018",
+   "ownerUpn": "aegis.rey@contoso.com"
+  },
+  {
+   "name": "App 19",
+   "environment": "Default",
+   "ownerId": "u-019",
+   "ownerUpn": "aegis.souza@contoso.com"
+  },
+  {
+   "name": "App 20",
+   "environment": "Prod",
+   "ownerId": "u-020",
+   "ownerUpn": "aegis.tanaka@contoso.com"
+  },
+  {
+   "name": "App 21",
+   "environment": "Dev1",
+   "ownerId": "u-021",
+   "ownerUpn": "banu.yildiz@contoso.com"
+  },
+  {
+   "name": "App 22",
+   "environment": "Test",
+   "ownerId": "u-022",
+   "ownerUpn": "banu.koc@contoso.com"
+  },
+  {
+   "name": "App 23",
+   "environment": "Default",
+   "ownerId": "u-023",
+   "ownerUpn": "banu.erdem@contoso.com"
+  },
+  {
+   "name": "App 24",
+   "environment": "Prod",
+   "ownerId": "u-024",
+   "ownerUpn": "banu.polat@contoso.com"
+  },
+  {
+   "name": "App 25",
+   "environment": "Dev1",
+   "ownerId": "u-025",
+   "ownerUpn": "banu.gunes@contoso.com"
+  },
+  {
+   "name": "App 26",
+   "environment": "Test",
+   "ownerId": "u-026",
+   "ownerUpn": "banu.acar@contoso.com"
+  },
+  {
+   "name": "App 27",
+   "environment": "Default",
+   "ownerId": "u-027",
+   "ownerUpn": "banu.tan@contoso.com"
+  },
+  {
+   "name": "App 28",
+   "environment": "Prod",
+   "ownerId": "u-028",
+   "ownerUpn": "banu.unal@contoso.com"
+  },
+  {
+   "name": "App 29",
+   "environment": "Dev1",
+   "ownerId": "u-029",
+   "ownerUpn": "banu.bilgin@contoso.com"
+  },
+  {
+   "name": "App 30",
+   "environment": "Default",
+   "ownerId": "gone-0",
+   "ownerUpn": "departed0@contoso.com"
+  },
+  {
+   "name": "App 31",
+   "environment": "Prod",
+   "ownerId": "gone-1",
+   "ownerUpn": "departed1@contoso.com"
+  },
+  {
+   "name": "App 32",
+   "environment": "Dev1",
+   "ownerId": "gone-2",
+   "ownerUpn": "departed2@contoso.com"
+  }
+ ],
+ "flows": [
+  {
+   "name": "Flow 01",
+   "environment": "Default",
+   "ownerId": "u-001",
+   "ownerUpn": "aegis.yildiz@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-001"
+    }
+   ]
+  },
+  {
+   "name": "Flow 02",
+   "environment": "Prod",
+   "ownerId": "u-002",
+   "ownerUpn": "aegis.koc@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-002"
+    }
+   ]
+  },
+  {
+   "name": "Flow 03",
+   "environment": "Dev1",
+   "ownerId": "u-003",
+   "ownerUpn": "aegis.erdem@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-003"
+    }
+   ]
+  },
+  {
+   "name": "Flow 04",
+   "environment": "Test",
+   "ownerId": "u-004",
+   "ownerUpn": "aegis.polat@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-004"
+    }
+   ]
+  },
+  {
+   "name": "Flow 05",
+   "environment": "Default",
+   "ownerId": "u-005",
+   "ownerUpn": "aegis.gunes@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-005"
+    }
+   ]
+  },
+  {
+   "name": "Flow 06",
+   "environment": "Prod",
+   "ownerId": "u-006",
+   "ownerUpn": "aegis.acar@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-006"
+    }
+   ]
+  },
+  {
+   "name": "Flow 07",
+   "environment": "Dev1",
+   "ownerId": "u-007",
+   "ownerUpn": "aegis.tan@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-007"
+    }
+   ]
+  },
+  {
+   "name": "Flow 08",
+   "environment": "Test",
+   "ownerId": "u-008",
+   "ownerUpn": "aegis.unal@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-008"
+    }
+   ]
+  },
+  {
+   "name": "Flow 09",
+   "environment": "Default",
+   "ownerId": "u-009",
+   "ownerUpn": "aegis.bilgin@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-009"
+    }
+   ]
+  },
+  {
+   "name": "Flow 10",
+   "environment": "Prod",
+   "ownerId": "u-010",
+   "ownerUpn": "aegis.sezer@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-010"
+    }
+   ]
+  },
+  {
+   "name": "Flow 11",
+   "environment": "Default",
+   "ownerId": "u-041",
+   "ownerUpn": "cavit.yildiz@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-041"
+    }
+   ]
+  },
+  {
+   "name": "Flow 12",
+   "environment": "Prod",
+   "ownerId": "u-042",
+   "ownerUpn": "cavit.koc@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-042"
+    }
+   ]
+  },
+  {
+   "name": "Flow 13",
+   "environment": "Dev1",
+   "ownerId": "u-043",
+   "ownerUpn": "cavit.erdem@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-043"
+    }
+   ]
+  },
+  {
+   "name": "Flow 14",
+   "environment": "Test",
+   "ownerId": "u-044",
+   "ownerUpn": "cavit.polat@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-044"
+    }
+   ]
+  },
+  {
+   "name": "Flow 15",
+   "environment": "Default",
+   "ownerId": "u-045",
+   "ownerUpn": "cavit.gunes@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-045"
+    }
+   ]
+  },
+  {
+   "name": "Flow 16",
+   "environment": "Prod",
+   "ownerId": "u-046",
+   "ownerUpn": "cavit.acar@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-046"
+    }
+   ]
+  },
+  {
+   "name": "Flow 17",
+   "environment": "Dev1",
+   "ownerId": "u-047",
+   "ownerUpn": "cavit.tan@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-047"
+    }
+   ]
+  },
+  {
+   "name": "Flow 18",
+   "environment": "Test",
+   "ownerId": "u-048",
+   "ownerUpn": "cavit.unal@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-048"
+    }
+   ]
+  },
+  {
+   "name": "Flow 19",
+   "environment": "Default",
+   "ownerId": "u-049",
+   "ownerUpn": "cavit.bilgin@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-049"
+    }
+   ]
+  },
+  {
+   "name": "Flow 20",
+   "environment": "Prod",
+   "ownerId": "u-050",
+   "ownerUpn": "cavit.sezer@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-050"
+    }
+   ]
+  },
+  {
+   "name": "Flow 21",
+   "environment": "Default",
+   "ownerId": "u-001",
+   "ownerUpn": "aegis.yildiz@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-001"
+    }
+   ]
+  },
+  {
+   "name": "Flow 22",
+   "environment": "Prod",
+   "ownerId": "u-002",
+   "ownerUpn": "aegis.koc@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-002"
+    }
+   ]
+  },
+  {
+   "name": "Flow 23",
+   "environment": "Dev1",
+   "ownerId": "u-003",
+   "ownerUpn": "aegis.erdem@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-003"
+    }
+   ]
+  },
+  {
+   "name": "Flow 24",
+   "environment": "Test",
+   "ownerId": "u-004",
+   "ownerUpn": "aegis.polat@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-004"
+    }
+   ]
+  },
+  {
+   "name": "Flow 25",
+   "environment": "Default",
+   "ownerId": "u-005",
+   "ownerUpn": "aegis.gunes@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-005"
+    }
+   ]
+  },
+  {
+   "name": "Flow 26",
+   "environment": "Prod",
+   "ownerId": "u-006",
+   "ownerUpn": "aegis.acar@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-006"
+    }
+   ]
+  },
+  {
+   "name": "Flow 27",
+   "environment": "Dev1",
+   "ownerId": "u-007",
+   "ownerUpn": "aegis.tan@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-007"
+    }
+   ]
+  },
+  {
+   "name": "Flow 28",
+   "environment": "Test",
+   "ownerId": "u-008",
+   "ownerUpn": "aegis.unal@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-008"
+    }
+   ]
+  },
+  {
+   "name": "Flow 29",
+   "environment": "Default",
+   "ownerId": "u-009",
+   "ownerUpn": "aegis.bilgin@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-009"
+    }
+   ]
+  },
+  {
+   "name": "Flow 30",
+   "environment": "Prod",
+   "ownerId": "u-010",
+   "ownerUpn": "aegis.sezer@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-010"
+    }
+   ]
+  },
+  {
+   "name": "Flow 31",
+   "environment": "Dev1",
+   "ownerId": "u-001",
+   "ownerUpn": "aegis.yildiz@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-001"
+    }
+   ]
+  },
+  {
+   "name": "Flow 32",
+   "environment": "Test",
+   "ownerId": "u-002",
+   "ownerUpn": "aegis.koc@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-002"
+    }
+   ]
+  },
+  {
+   "name": "Flow 33",
+   "environment": "Default",
+   "ownerId": "u-003",
+   "ownerUpn": "aegis.erdem@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-003"
+    }
+   ]
+  },
+  {
+   "name": "Flow 34",
+   "environment": "Prod",
+   "ownerId": "u-004",
+   "ownerUpn": "aegis.polat@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-004"
+    }
+   ]
+  },
+  {
+   "name": "Flow 35",
+   "environment": "Dev1",
+   "ownerId": "u-005",
+   "ownerUpn": "aegis.gunes@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-005"
+    }
+   ]
+  },
+  {
+   "name": "Flow 36",
+   "environment": "Test",
+   "ownerId": "u-006",
+   "ownerUpn": "aegis.acar@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-006"
+    }
+   ]
+  },
+  {
+   "name": "Flow 37",
+   "environment": "Default",
+   "ownerId": "gone-f0",
+   "ownerUpn": "leaver0@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-f0"
+    }
+   ]
+  },
+  {
+   "name": "Flow 38",
+   "environment": "Prod",
+   "ownerId": "gone-f1",
+   "ownerUpn": "leaver1@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-f1"
+    }
+   ]
+  },
+  {
+   "name": "Flow 39",
+   "environment": "Dev1",
+   "ownerId": "gone-f2",
+   "ownerUpn": "leaver2@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-f2"
+    }
+   ]
+  },
+  {
+   "name": "Flow 40",
+   "environment": "Test",
+   "ownerId": "gone-f3",
+   "ownerUpn": "leaver3@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-f3"
+    }
+   ]
+  },
+  {
+   "name": "Flow 41",
+   "environment": "Default",
+   "ownerId": "gone-f4",
+   "ownerUpn": "leaver4@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-f4"
+    }
+   ]
+  },
+  {
+   "name": "Flow 42",
+   "environment": "Default",
+   "ownerId": "u-039",
+   "ownerUpn": "banu.souza@contoso.com",
+   "state": false,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-039"
+    }
+   ]
+  },
+  {
+   "name": "Flow 43",
+   "environment": "Prod",
+   "ownerId": "u-039",
+   "ownerUpn": "banu.souza@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-039"
+    }
+   ]
+  },
+  {
+   "name": "Flow 44",
+   "environment": "Prod",
+   "ownerId": "gone-c0",
+   "ownerUpn": "former.maker@contoso.com",
+   "state": true,
+   "creatorType": "ActiveDirectory",
+   "owners": [
+    {
+     "type": "User",
+     "id": "gone-c0"
+    },
+    {
+     "type": "User",
+     "id": "u-001"
+    }
+   ]
+  },
+  {
+   "name": "Flow 45",
+   "environment": "Dev1",
+   "ownerId": "sp-0001",
+   "ownerUpn": null,
+   "state": true,
+   "owners": [
+    {
+     "type": "ServicePrincipal",
+     "id": "sp-0001"
+    }
+   ]
+  },
+  {
+   "name": "Flow 46",
+   "environment": "Test",
+   "ownerId": "dv-sys-0001",
+   "ownerUpn": null,
+   "state": true,
+   "creatorType": "DataverseSystemUser",
+   "ownerObjectId": "u-002",
+   "owners": [
+    {
+     "type": "User",
+     "id": "u-002"
+    }
+   ]
+  }
+ ],
+ "environments": [
+  {
+   "name": "Default",
+   "displayName": "Contoso (default)",
+   "isDefault": true
+  },
+  {
+   "name": "Prod",
+   "displayName": "Production",
+   "isDefault": false
+  },
+  {
+   "name": "Dev1",
+   "displayName": "Dev sandbox 1",
+   "isDefault": false
+  },
+  {
+   "name": "Test",
+   "displayName": "Test",
+   "isDefault": false
+  },
+  {
+   "name": "Legacy",
+   "displayName": "Legacy migration",
+   "isDefault": false
+  },
+  {
+   "name": "Sandbox",
+   "displayName": "Sandbox old",
+   "isDefault": false
+  }
+ ]
+}

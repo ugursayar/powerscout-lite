@@ -1,0 +1,23 @@
+Rule,Kind,SkuPartNumber,DbGB,FileGB,LogGB,Notes
+# --------------------------------------------------------------------------------------------
+# Dataverse capacity entitlements - DATA, not code. Microsoft changed these twice within six
+# months (database defaults Dec 2025, file defaults Apr 2026), so this table is date-stamped
+# and every applied rule is shown in the report. CONFIRM against Power Platform admin center ->
+# Resources -> Capacity -> "storage capacity entitled" and your licensing agreement before
+# cancelling anything - PPAC's entitled number is authoritative; this table exists so the
+# report can explain WHERE the entitlement comes from.
+#
+# Kind: base       = granted once if the tenant has purchased >=1 license of SkuPartNumber
+#       perlicense = granted per assigned license of SkuPartNumber
+#       tenantbase = granted once to every tenant (still supported for custom tables; not used below)
+#       SkuPartNumber may list several part numbers separated by | - any of them counts
+#
+# Table state: post-Dec-2025 database defaults, post-Apr-2026 file doubling. VERIFY.
+# The default is one-time per tenant and needs a qualifying license (Learn powerapps-flow-licensing-faq#dataverse):
+# "Every tenant with a Power Apps license gets default capacity".
+# The first subscription grants it and additional subscriptions do not add to it (Licensing Guide Oct 2026 p.21).
+# Dynamics 365 and other subscriptions also grant a default - if PPAC shows one this table misses, add a row.
+# --------------------------------------------------------------------------------------------
+Power Apps / Power Automate default (post-Dec-2025),base,POWERAPPS_PER_USER|POWERAUTOMATE_ATTENDED_RPA|FLOW_PER_USER|POWERAPPS_PER_APP,20,20,2,20 GB DB default since Dec 2025 (Microsoft Power Platform blog 2025-12-04; Licensing Guide Oct 2026 p.20). p.21 text still shows the old 10 GB. PPAC is authoritative.
+Power Apps Premium per-license accrual,perlicense,POWERAPPS_PER_USER,0.25,2,0,250 MB DB + 2 GB File per license - verify
+Power Automate Premium per-license accrual,perlicense,POWERAUTOMATE_ATTENDED_RPA|FLOW_PER_USER,0.25,2,0,250 MB DB + 2 GB File per license - Power Platform Licensing Guide Oct 2026 p.21 - https://go.microsoft.com/fwlink/?linkid=2085130

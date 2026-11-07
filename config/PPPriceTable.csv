@@ -1,0 +1,17 @@
+Key,FriendlyName,Value,IsPPLicense,Notes
+# --------------------------------------------------------------------------------------------
+# PowerScout price table. Edit Value to match YOUR agreement / region / currency.
+# Capacity rows are $/GB/month for Dataverse add-on capacity (Microsoft list, USD):
+#   Database ~40, File ~2. Log add-on price varies - SET IT before trusting log savings.
+# License rows are $/user/month; IsPPLicense=1 marks SKUs audited as Power Platform premium.
+# Run  Get-MgSubscribedSku | Select SkuPartNumber  to see your tenant's exact part numbers
+# (per-app plans, process/hosted RPA plans etc. can be added as extra IsPPLicense=1 rows).
+# Part numbers are historical: POWERAUTOMATE_ATTENDED_RPA is Power Automate Premium; FLOW_PER_USER is the legacy per user plan.
+# --------------------------------------------------------------------------------------------
+DbPerGBMonthly,Dataverse Database capacity add-on,40,,approx Microsoft list (USD/GB/mo) - verify your agreement
+FilePerGBMonthly,Dataverse File capacity add-on,2,,approx Microsoft list (USD/GB/mo) - verify your agreement
+LogPerGBMonthly,Dataverse Log capacity add-on,,,SET PRICE - commonly cited ~10 USD/GB/mo - verify
+POWERAPPS_PER_USER,Power Apps Premium (per user),20,1,verify current list price
+POWERAUTOMATE_ATTENDED_RPA,Power Automate Premium (per user),15,1,verify current list price
+FLOW_PER_USER,Power Automate per user plan (legacy),15,1,verify current list price
+POWERAPPS_PER_APP,Power Apps per app plan,,1,SET PRICE if you use per-app plans
